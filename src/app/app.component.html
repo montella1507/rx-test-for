@@ -1,0 +1,9 @@
+<!-- Where is rxFOR directive? -->
+<span *rxFor="let item of arr">
+  {{ item }}
+</span>
+
+<!-- WORK -->
+<span *ngFor="let item of arr | async">
+  {{ item }}
+</span>
